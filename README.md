@@ -6,6 +6,9 @@
 2. open your favourite text editor / ide and have fun
 3. (optional) use [nix-direnv](https://github.com/nix-community/nix-direnv) to automatically load the environment when switching to repo's directory
 
+> you may directly write this template onto the **current** working directory using\
+```nix flake init -t github:Rexcrazy804/advent-of-code-rust-flake-template```
+
 ## Usage (preserved from fork parent)
 
 1. Create a new project from the template repository:
