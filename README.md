@@ -1,6 +1,12 @@
-# Template for solving Advent of Code puzzles in Rust with RustRover
+# Template for solving Advent of Code puzzles in Rust with Nix Flakes
 
-## Usage
+## Usage with Nix
+
+1. run ```nix develop```
+2. open your favourite text editor / ide and have fun
+3. (optional) use [nix-direnv](https://github.com/nix-community/nix-direnv) to automatically load the environment when switching to repo's directory
+
+## Usage (preserved from fork parent)
 
 1. Create a new project from the template repository:
    - Using GitHub’s templating feature: Simply click the Use this template [button](https://github.com/new?template_name=advent-of-code-rust-template&template_owner=bravit) on the repository page, create a new repository, and then open it in [RustRover](https://www.jetbrains.com/rust/) by selecting *File | New | Project From Version Control…*.
