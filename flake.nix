@@ -40,7 +40,21 @@
         "aarch64-linux"
       ];
 
-      flake = {};
+      flake = {
+        templates = rec {
+          rust = {
+            path = ./.;
+            description = "A simple Rust/Cargo project";
+            welcomeText = ''
+            # Simple Rust template
+
+            Intended for Advent of Code 2024
+            '';
+          };
+          default = rust;
+        };
+      };
+
       perSystem = {
         pkgs,
         system,
